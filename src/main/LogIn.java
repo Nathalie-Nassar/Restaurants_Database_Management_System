@@ -71,7 +71,7 @@ public class LogIn extends javax.swing.JPanel implements java.beans.Customizer {
         jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, 240, 80));
 
         exit.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
-        exit.setForeground(new java.awt.Color(255, 255, 255));
+        exit.setForeground(new java.awt.Color(204, 0, 0));
         exit.setText("X");
         exit.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -141,7 +141,6 @@ public class LogIn extends javax.swing.JPanel implements java.beans.Customizer {
         jButton1.setFont(new java.awt.Font("Segoe UI", 2, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Log In");
-        jButton1.setActionCommand("Log In");
         jButton1.setBorder(new javax.swing.border.MatteBorder(null));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
